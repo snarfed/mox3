@@ -906,7 +906,7 @@ class MethodSignatureChecker(object):
                         can't be inspected.
         """
         try:
-            self._args, varargs, varkw, defaults = inspect.getargspec(method)
+            self._args, varargs, varkw, defaults, _, _, _ = inspect.getfullargspec(method)
         except TypeError:
             raise ValueError('Could not get argument specification for %r'
                              % (method,))
