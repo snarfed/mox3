@@ -7,8 +7,8 @@ Mox3 - Mock object framework for Python 3
 
 Mox3 is an unofficial port of the Google mox framework
 (http://code.google.com/p/pymox/) to Python 3. It was meant to be as compatible
-with mox as possible, but small enhancements have been made. The library was
-tested on Python version 3.2, 2.7 and 2.6.
+with mox as possible, but small enhancements have been made. The library supports
+Python versions 2.6, 2.7, and 3.2 through 3.11.
 
 Use at your own risk ;)
 
